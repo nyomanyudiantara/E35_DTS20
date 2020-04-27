@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<title>E35_DTS 20</title>
+</head>
+<body>
+	<header>
+		<div class="header">E35_DTS 20</div>
+		<ul id="nav-one" class="nav-item">
+			<li><a href="#one">Home</a></li>
+			<li><a href="#two">About</a></li>
+			<li><a href="#three">Services</a></li>
+			<li><a href="#four">Contact</a></li>
+		</ul>
+	</header>
+
+<div id="second-nav">
+<div class='navbar-toggle'>
+	<div class='bar1'></div>
+	<div class='bar2'></div>
+	<div class='bar3'></div>
+</div>
+<nav class="nav-hide">
+	<ul>
+		<li><a href="#one">Home</a></li>
+		<li><a href="#two">About</a></li>
+		<li><a href="#three">Services</a></li>
+		<li><a href="#four">Contact</a></li>
+	</ul>
+</nav>
+</div>
+
+	<section id="one" style="background: #eee; height: 100vh; width: 100%;">
+		<center>
+		<img class="img-responsive" src="images/sun.png"></img>
+		</center>
+		<h4 class="welcome-message" style="color: rgba(232, 226, 37);">Hello.</h4>
+		<br/>
+		<h6 class="welcome-message">We are...</h6>
+	</section>
+	<div style="height: 100px;">
+	<span class="text-animate"><b>About</b></span><span class="second-text-animate"><b>About</b></span>
+	</div>
+	<section id="two" style="background: #eee; height: auto; width: auto;">
+		<center>
+		<img src="images/default.png" class="image-circle">
+		<p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed faucibus erat, non dictum tortor. Proin quis arcu ac turpis imperdiet tempor. Sed suscipit eu arcu at ullamcorper. Sed porttitor molestie ipsum, a varius justo vulputate imperdiet. Praesent commodo diam auctor erat cursus fringilla vitae vel ligula. Sed sodales feugiat pretium. Morbi eu faucibus dui. Ut nec lacus sed libero condimentum faucibus ut sit amet purus.</p>
+		</center>
+	</section>
+
+	<span class="text-animate"><b>Services</b></span><span class="second-text-animate"><b>Services</b></span>
+	<section id="three" style="background: #eee; height: auto;">
+		<div class="services">
+			<center>
+			<b>
+				<i class="fa fa-code" style="font-size: 25px; font-weight: 500; margin-top: 10px;"></i>
+			</b>
+			<h5 style="font-size: 25px; padding: 0; margin: 0; margin-top: 10px;">Web Design</h5>
+			<p style="padding: 5px 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed faucibus erat, non dictum tortor. Proin quis arcu ac turpis imperdiet tempor.</p>
+			<div style="font-weight: 500; padding-bottom: 10px;">
+				<a href="#" style="font-size: 18px;">Read more</a>
+			</div>
+			</center>
+		</div>
+		<div class="services">
+			<center>
+			<b>
+				<i class="fa fa-code" style="font-size: 25px; font-weight: 500; margin-top: 10px;"></i>
+			</b>
+			<h5 style="font-size: 25px; padding: 0; margin: 0; margin-top: 10px;">Web Design</h5>
+			<p style="padding: 5px 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed faucibus erat, non dictum tortor. Proin quis arcu ac turpis imperdiet tempor.</p>
+			<div style="font-weight: 500; padding-bottom: 10px;">
+				<a href="#" style="font-size: 18px;">Read more</a>
+			</div>
+			</center>
+		</div>
+	</section>
+
+	<div style="height: 100px;">
+		<span class="text-animate"><b>Contact Us</b></span><span class="second-text-animate"><b>Contact Us</b></span>
+	</div>
+	<footer id="four" style="height: auto; margin-top: 20px;">
+		<div class="footer-section">
+			<label>Address:</label>
+			<p>Jl. .... </p>
+			<label>Phone No.</label>
+			<p><a href="#">+62 81 12345324</a></p>
+			<label>E-mail:</label>
+			<p><a href="#">hello@demo.com</a></p>
+		</div>
+		<div class="icon">
+			<a href="#"><i class="fa fa-instagram"></i></a>
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-whatsapp"></i></a>
+		</div>
+		<div class="allrights-footer">
+			&copy; 2020 E35_DTS 20. All Right Reserved
+		</div>
+	</footer>
+
+
+	<script>
+	$(function(){
+		$('.navbar-toggle, nav').click(function(){
+			$('.navbar-toggle').toggleClass('navbar-on');
+				$('nav').fadeToggle();
+					$('nav').removeClass('nav-hide');
+		});
+	});
+    </script>
+
+</body>
+</html>
